@@ -1,0 +1,50 @@
+/* ------------------------------- */
+
+*{
+    font-family: "PKMN RBYGSC";
+}
+
+body{
+    background-image: url('images/sky_background_gold_pink.png');
+    margin: 2.5%;
+}
+
+/* ------------------------------- */
+
+#container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+#box1{
+    z-index: 1;
+    position: relative;
+    left: 30%;
+    padding-top: 5%;
+}
+
+#heading{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    z-index: 5;
+    padding: 5%;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 30%;
+    grid-template-areas:
+    ". main ."
+    "title_w title_k title_c"
+    "content_w content_k content_c";
+    z-index: 10;
+    position: absolute;
+    top: 60%;
+    left: 43.5%;
+}
+
+/* ------------------------------- */
